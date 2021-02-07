@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "874873640207",
+    "project_id": "dicerolltracker",
+    "storage_bucket": "dicerolltracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874873640207:android:029969b7cfd1c123651a7a",
+        "android_client_info": {
+          "package_name": "com.cs4261.dicerollreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874873640207-g75kbac0bos4ir5oonrm20lukhov11tv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUpuaZI77klj4gUT0wIiPi74h9yPo-Qq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874873640207-g75kbac0bos4ir5oonrm20lukhov11tv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
