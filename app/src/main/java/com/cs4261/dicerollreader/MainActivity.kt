@@ -12,10 +12,9 @@ import com.google.firebase.auth.FirebaseAuth
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //setContentView(R.layout.activity_main)
         setContentView(R.layout.activity_firebase_ui)
 
-        val button = findViewById<Button>(R.id.button2)
+        val button = findViewById<Button>(R.id.login_button)
 
         val providers = arrayListOf(
                 AuthUI.IdpConfig.EmailBuilder().build(),
@@ -44,6 +43,8 @@ class MainActivity : AppCompatActivity() {
                 val user = FirebaseAuth.getInstance().currentUser
                 println("Logged in as ${user}")
                 // ...
+
+                startActivity(Intent(this, RollHistory::class.java))
             } else {
                 // Sign in failed. If response is null the user canceled the
                 // sign-in flow using the back button. Otherwise check
