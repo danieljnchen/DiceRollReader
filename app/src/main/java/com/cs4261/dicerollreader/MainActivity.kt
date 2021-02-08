@@ -1,3 +1,7 @@
+/**
+ * @Author Daniel Chen
+ * Code modified by Zhou Lu (michael-land)
+ */
 package com.cs4261.dicerollreader
 
 import android.app.Activity
@@ -34,7 +38,6 @@ class MainActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
 
         if (requestCode == RC_SIGN_IN) {
-            //val response = IdpResponse.fromResultIntent(data)
 
             if (resultCode == Activity.RESULT_OK) {
                 // Successfully signed in
@@ -52,6 +55,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /**
+     * Constant values for the Sign-in Request Code
+     */
     companion object {
         private const val RC_SIGN_IN = 123
     }
